@@ -1,0 +1,14 @@
+[debug] [2023-10-09T13:52:34.731Z] ----------------------------------------------------------------------
+[debug] [2023-10-09T13:52:34.732Z] Command:       /usr/local/bin/node /opt/homebrew/bin/firebase deploy
+[debug] [2023-10-09T13:52:34.732Z] CLI Version:   12.6.2
+[debug] [2023-10-09T13:52:34.732Z] Platform:      darwin
+[debug] [2023-10-09T13:52:34.732Z] Node Version:  v16.14.0
+[debug] [2023-10-09T13:52:34.736Z] Time:          Mon Oct 09 2023 19:22:34 GMT+0530 (India Standard Time)
+[debug] [2023-10-09T13:52:34.736Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-09T13:52:34.768Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-09T13:52:34.768Z] > authorizing via signed-in user (ankugarg580@gmail.com)
+[debug] [2023-10-09T13:52:34.768Z] [iam] checking project netflixgpt-1f5c3 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-09T13:52:34.770Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-1f5c3:testIamPermissions [none]
+[debug] [2023-10-09T13:52:34.770Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-1f5c3:testIamPermissions x-goog-quota-user=projects/netflixgpt-1f5c3
+[debug] [2023-10-09T13:52:34.770Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-1f5c3:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
